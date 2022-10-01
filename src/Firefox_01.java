@@ -9,7 +9,8 @@ public class Firefox_01 {
 			WebDriver driver = new FirefoxDriver();
 			driver.get("https://www.facebook.com/");
 			System.out.println(driver.getTitle());
-			System.out.println(driver.getCurrentUrl());
+			
+			
 	        driver.close();
 		
 
